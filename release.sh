@@ -8,10 +8,10 @@ bak_dir=$tomcat_dir"/bak";
 ################延时函数########################
 function running(){
 b=''
-for ((i=0;i<=100;i+=2))
+for ((i=0;i<=$1;i+=1))
 do
-    printf "progress:[%-50s]%d%%\r" $b $i
-    sleep 0.2
+    printf "progress:[%-$1s]%%\r" $b
+    sleep 0.1
     b=#$b
 done
 echo
@@ -37,8 +37,12 @@ resultHandle $? "Maven打包失败"
 
 echo "########开始杀死tomcat进程，请等候5秒####################" ;
 ps aux | grep $instance | grep -v grep | awk '{print "kill ",$2|"bash"}' ;
-running ;
-ps aux | grep $instance | grep -v grep;
+echo "正在杀死.."
+running 20;
+resultHandle $? "正在杀"
+#ps aux | grep $instance | grep -v grep;
+#resultHandle $? "执行失败"
+echo "杀死完毕.."
 
 echo "###########开始备份###################";
 mv ${tomcat_dir}/webapps/isay.war ${bak_dir}/isay__$(date "+%Y%m%d_%H%M").war;
@@ -52,5 +56,5 @@ echo ${tomcat_dir}/bin/startup.sh ;
 ${tomcat_dir}/bin/startup.sh;
 
 echo "###########查看启动日志#########" ;
-running;
+running 20;
 tail -f ${tomcat_dir}/logs/catalina.out ;
