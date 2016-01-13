@@ -23,7 +23,6 @@ import java.util.Properties;
 
 /**
  * @author Firezyz
- * @since 2014年5月18日 下午1:36:31
  **/
 @Intercepts({ @Signature(type = StatementHandler.class, method = "prepare", args = { Connection.class }) })
 public class PaginationStatementHandlerInterceptor implements Interceptor {

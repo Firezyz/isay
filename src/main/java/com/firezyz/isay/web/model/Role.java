@@ -4,7 +4,6 @@ package com.firezyz.isay.web.model;
  * 角色模型
  * 
  * @author Firezyz
- * @since 2014年7月17日 下午1:02:25
  **/
 public class Role {
     private Long id;

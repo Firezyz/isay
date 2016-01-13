@@ -4,7 +4,6 @@ package com.firezyz.isay.web.security;
  * 系统资源,模块
  * 
  * @author Firezyz
- * @since 2014年6月17日 下午4:03:33
  **/
 public class Resource {
     /**

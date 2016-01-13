@@ -4,7 +4,6 @@ package com.firezyz.isay.core.feature.orm.dialect;
  * MSSQL 数据库方言
  * 
  * @author Firezyz
- * @since 2014年5月18日 下午1:32:33
  **/
 public class MSDialect extends Dialect {
 

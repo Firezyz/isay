@@ -7,7 +7,6 @@ import com.firezyz.isay.web.model.User;
  * 用户 业务 接口
  * 
  * @author Firezyz
- * @since 2014年7月5日 上午11:53:33
  **/
 public interface UserService extends GenericService<User, Long> {
 

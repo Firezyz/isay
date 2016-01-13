@@ -14,7 +14,6 @@ import java.util.Set;
  * CookieUtils : 针对Http Cookie的工具类
  *
  * @author Firezyz
- * @since 2014-09-28 22:31
  */
 public class CookieUtils {
 

@@ -13,7 +13,6 @@ package com.firezyz.isay.web.security;
  * </pre>
  * 
  * @author Firezyz
- * @since 2014年6月17日 下午3:58:51
  **/
 public class RoleSign {
 

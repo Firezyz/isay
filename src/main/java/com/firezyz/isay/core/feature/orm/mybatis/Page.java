@@ -11,7 +11,6 @@ import java.util.List;
  * @param <T>
  *            Page中记录的类型.
  * @author Firezyz
- * @since 2014年5月18日 下午1:34:32
  **/
 public class Page<T> extends RowBounds {
     // --分页参数 --//

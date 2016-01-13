@@ -5,7 +5,6 @@ import java.util.regex.Pattern;
 
 /**
  * @author Firezyz
- * @since 2014年5月18日 下午1:32:42
  **/
 public class MSPageHepler {
     /**

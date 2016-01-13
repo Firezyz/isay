@@ -15,7 +15,6 @@ import java.util.Properties;
 
 /**
  * @author Firezyz
- * @since 2014年5月18日 下午1:36:08
  **/
 @Intercepts({ @Signature(type = ResultSetHandler.class, method = "handleResultSets", args = { Statement.class }) })
 public class PaginationResultSetHandlerInterceptor implements Interceptor {

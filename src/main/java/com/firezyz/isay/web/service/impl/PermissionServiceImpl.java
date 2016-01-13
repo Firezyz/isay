@@ -14,7 +14,6 @@ import java.util.List;
  * 权限Service实现类
  *
  * @author Firezyz
- * @since 2014年6月10日 下午12:05:03
  */
 @Service
 public class PermissionServiceImpl extends GenericServiceImpl<Permission, Long> implements PermissionService {

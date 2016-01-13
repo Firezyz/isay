@@ -11,7 +11,6 @@ import java.util.List;
  * 权限 Dao 接口
  * 
  * @author Firezyz
- * @since 2014年7月5日 上午11:59:03
  **/
 public interface PermissionMapper extends GenericDao<Permission, Long> {
     int countByExample(PermissionExample example);

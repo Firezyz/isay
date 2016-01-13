@@ -11,7 +11,6 @@ import java.util.List;
  * 角色Dao 接口
  * 
  * @author Firezyz
- * @since 2014年7月5日 上午11:55:59
  **/
 public interface RoleMapper extends GenericDao<Role, Long> {
     int countByExample(RoleExample example);

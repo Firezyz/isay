@@ -9,7 +9,6 @@ package com.firezyz.isay.core.generic;
  * PK :代表对象的主键类型
  *
  * @author Firezyz
- * @since 2014年6月9日 下午6:14:06
  */
 public interface GenericDao<Model, PK> {
 

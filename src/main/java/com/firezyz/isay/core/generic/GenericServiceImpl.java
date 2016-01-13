@@ -10,7 +10,6 @@ import java.util.List;
  * PK :代表对象的主键类型
  *
  * @author Firezyz
- * @since 2014年6月9日 下午6:14:06
  */
 public abstract class GenericServiceImpl<Model, PK> implements GenericService<Model, PK> {
 

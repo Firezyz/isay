@@ -14,7 +14,6 @@ import java.util.List;
  * 角色Service实现类
  *
  * @author Firezyz
- * @since 2014年6月10日 下午4:16:33
  */
 @Service
 public class RoleServiceImpl extends GenericServiceImpl<Role, Long> implements RoleService {
