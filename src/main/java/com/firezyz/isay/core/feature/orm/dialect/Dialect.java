@@ -4,7 +4,6 @@ package com.firezyz.isay.core.feature.orm.dialect;
  * 数据库方言抽象类
  * 
  * @author Firezyz
- * @since 2014年5月18日 下午1:32:03
  **/
 public abstract class Dialect {
 
