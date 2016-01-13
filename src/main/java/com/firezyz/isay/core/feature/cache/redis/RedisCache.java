@@ -7,7 +7,6 @@ import redis.clients.jedis.Jedis;
  * RedisCache : redis 缓存 插件
  *
  * @author Firezyz
- * @since 2015-03-20 11:12
  */
 @Component(value = "redisCache")
 public class RedisCache {

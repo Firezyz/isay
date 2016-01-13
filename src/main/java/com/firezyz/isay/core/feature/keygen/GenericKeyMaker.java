@@ -8,7 +8,6 @@ import java.util.zip.CRC32;
  * GenericKeyMaker : JetBrains 系列产品 KegGen
  *
  * @author Firezyz
- * @since 2015-04-04 13:56
  */
 public class GenericKeyMaker {
 

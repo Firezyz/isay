@@ -4,7 +4,6 @@ package com.firezyz.isay.core.entity;
  * UserException : 用户自定义异常
  *
  * @author Firezyz
- * @since 2014-09-27 18:12
  */
 public class UserException extends RuntimeException {
 

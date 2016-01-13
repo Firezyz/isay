@@ -6,7 +6,6 @@ import java.math.BigInteger;
  * RSAEncoder :
  *
  * @author Firezyz
- * @since 2015-04-04 13:54
  */
 public class RSAEncoder {
     private final BigInteger privKey;

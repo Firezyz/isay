@@ -5,7 +5,6 @@ package com.firezyz.isay.core.entity;
  * JSONResult : Response JSONResult for RESTful,封装返回JSON格式的数据
  *
  * @author Firezyz
- * @since 2014年5月26日 上午10:51:46
  */
 
 public class JSONResult<T> extends Result {

@@ -13,7 +13,6 @@ package com.firezyz.isay.web.security;
  * </pre>
  * 
  * @author Firezyz
- * @since 2014年6月17日 下午3:58:51
  **/
 public class PermissionSign {
 
@@ -26,6 +25,16 @@ public class PermissionSign {
      * 用户删除权限 标识
      */
     public static final String USER_DELETE = "user:delete";
+
+    /**
+     * 用户修改权限 标识
+     */
+    public static final String USER_UPDATE = "user:update";
+
+    /**
+     * 用户查看权限 标识
+     */
+    public static final String USER_READ = "user:read";
 
     /**
      * 添加更多...
